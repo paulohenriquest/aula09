@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    color: white;
+    background: rgb(63, 13, 199);
+    display: flex;
+    float: left;
+    margin: auto;
+    width: 2%;
+    height: 100vh;
+}
+
+.direita {
+    width: 60%;
+    height: 100vh;
+    display: grid;
+}
+
+.teste {
+    margin: 20px;
+    margin-left: 50px;
+    height: 280px;
+}
+
+.html p {
+    margin-top: 10px;
+}
+
+.teste h1 {
+    font-size: 20px;
+}
+
+.teste h3 {
+    margin: auto;
+}
+
+.estatisticas {
+    display: flex;
+    margin-top: 10px;
+}
+
+.estatisticas p {
+    margin: auto;
+    margin-left: 2px;
+}
+
+.estat1 {
+    display: flex;
+    background: rgb(204, 202, 202);
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.estat1 h3 {
+    color: rgb(231, 65, 65);
+    font-size: 30px;
+}
+
+.estat2 {
+    display: flex;
+    background: rgb(204, 202, 202);
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.estat2 h3 {
+    color: rgb(35, 35, 247);
+    font-size: 30px;
+}
+
+.estat3 {
+    display: flex;
+    background: rgb(204, 202, 202);
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.estat3 h3 {
+    color: rgb(231, 65, 65);
+    font-size: 30px;
+}
+
+.historico {
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.historico img {
+    width: 55px;
+}
+
+.hist {
+    display: flex;
+}
+
+.pontuacao {
+    margin-left: 40%;
+}

@@ -239,4 +239,21 @@ nav {
     align-content: center;
     justify-content: center;
     margin: 20px;
+    width: 80%;
+    margin-left: 60px;
+}
+
+.grupo1 {
+    background: rgb(252, 123, 36);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grupo2 {
+    margin: auto;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }

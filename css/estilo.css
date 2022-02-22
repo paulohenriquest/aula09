@@ -19,10 +19,23 @@ body {
     height: 100vh;
 }
 
-.direita {
+.geral {
+    display: flex;
+}
+
+.esquerda {
     width: 60%;
     height: 100vh;
     display: grid;
+}
+
+nav {
+    width: 4vh;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .teste {
@@ -55,7 +68,7 @@ body {
 
 .estat1 {
     display: flex;
-    background: rgb(204, 202, 202);
+    background: rgb(216, 215, 215);
     padding: 15px;
     width: 150px;
     height: 50px;
@@ -70,7 +83,7 @@ body {
 
 .estat2 {
     display: flex;
-    background: rgb(204, 202, 202);
+    background: rgb(216, 215, 215);
     padding: 15px;
     width: 150px;
     height: 50px;
@@ -84,7 +97,7 @@ body {
 
 .estat3 {
     display: flex;
-    background: rgb(204, 202, 202);
+    background: rgb(216, 215, 215);
     padding: 15px;
     width: 150px;
     height: 50px;
@@ -100,16 +113,130 @@ body {
 .historico {
     margin: 20px;
     margin-left: 50px;
+    margin-top: -60px;
 }
 
 .historico img {
     width: 55px;
+    margin-right: 7px;
+    border-radius: 10px;
 }
 
 .hist {
     display: flex;
+    margin-top: 15px;
 }
 
 .pontuacao {
     margin-left: 40%;
+}
+
+.pessoas strong {
+    color: rgb(231, 65, 65);
+}
+
+.ola {
+    width: 80%;
+    height: 35vh;
+    border-radius: 15px;
+    margin: auto;
+    border: solid 1px;
+}
+
+.ola img {
+    display: flex;
+    width: 250px;
+    margin: 5px;
+}
+
+.olatexto {
+    display: flex;
+    padding: 20px;
+}
+
+.grid h1 {
+    margin-bottom: 10px;
+}
+
+.grid p {
+    margin-bottom: 10px;
+}
+
+.amarelo {
+    background: yellow;
+    height: 60px;
+}
+
+.amarelo p {
+    padding: 15px;
+    color: white;
+}
+
+.direita {
+    display: grid;
+    background: rgb(216, 215, 215);
+    width: 40%;
+}
+
+.log {
+    text-align: center;
+    margin: 20px;
+}
+
+.log h1 {
+    font-size: 20px;
+}
+
+.log img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.notas {
+    height: 32vh;
+}
+
+.anotacoes p {
+    margin: 20px;
+}
+
+.anotacoes1 {
+    width: 25%;
+    height: 100px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.anotacoes1 h1 {
+    font-size: 20px;
+}
+
+.diario {
+    background: rgb(29, 28, 28);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tarefas {
+    border: solid 1px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.final img {
+    width: 55px;
+}
+
+.titulo {
+    margin: 20px;
+}
+
+.grupos {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
 }

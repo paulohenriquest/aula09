@@ -7,6 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .cabecalho {
@@ -17,6 +18,18 @@ body {
     margin: auto;
     width: 2%;
     height: 100vh;
+}
+
+li {
+    margin: 8px;
+}
+
+.sobe {
+    padding: 0px 0px 400px;
+}
+
+.desce {
+    margin-top: 400px;
 }
 
 .geral {
@@ -36,6 +49,10 @@ nav {
     align-content: center;
     align-items: center;
     justify-content: center;
+}
+
+ul {
+    list-style: none;
 }
 
 .teste {
@@ -227,6 +244,7 @@ nav {
 
 .final img {
     width: 55px;
+    border-radius: 10px;
 }
 
 .titulo {
@@ -257,3 +275,141 @@ nav {
     padding: 10px;
     border-radius: 10px;
 }
+
+.criar {
+    font-weight: bold;
+}
+
+.fim {
+    display: flex;
+    margin: 10px;
+}
+
+.pontuacao1 {
+    margin-left: 63%;
+}
+
+.meio {
+    position: absolute;
+    background: rgb(88, 29, 226);
+    color: white;
+    margin-left: 50%;
+    margin-top: -34%;
+    width: 40vh;
+    height: 25vh;
+    border-radius: 15px;
+    box-shadow: 10px 12px 17px -5px rgb(82 81 81);
+}
+
+.meio1 {
+    padding: 10px;
+    width: 70%;
+}
+
+.hoje {
+    background: rgb(117, 71, 224);
+    margin: 5px;
+}
+
+.flutuante {
+    margin: 5px;
+}
+
+.hoje {
+    margin: 5px;
+    padding: 15px;
+}
+
+.agora {
+    margin: 5px;
+    background: rgb(117, 71, 224);
+    padding: 17px;
+}
+
+.agora p {
+    margin-top: 5px;
+}
+
+@media (max-width: 798px) {
+    .total {
+        width: auto;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .geral img {
+        width: 20px;
+    }
+
+    .cabecalho {
+        width: auto;
+    }
+
+    .sobe {
+        padding: 0px 0px 250px;
+    }
+
+    .desce {
+        margin-top: 250px;
+    }
+
+    .esquerda {
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .teste {
+        margin: 10px;
+        height: 180px;
+    }
+
+    .historico {
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .ola {
+        width: auto;
+        height: auto;
+        margin-top: 90px;
+        margin-right: 10px;
+    }
+
+    .html h1 {
+        font-size: 12px;
+    }
+    .estatisticas h3 {
+        font-size: 10px;
+    }
+
+    .estat1 {
+        width: auto;
+        padding: 0px;
+    }
+
+    .estat2 {
+        width: auto;
+        padding: 0px;
+    }
+
+    .estat3 {
+        width: auto;
+        padding: 0px;
+    }
+
+    .olatexto img {
+        width: 50px;
+        margin-left: -10px;
+    }
+
+    .meio {
+        margin: auto;
+        margin-left: 50px;
+        width: 80%;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+

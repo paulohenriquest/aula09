@@ -145,7 +145,7 @@ ul {
 }
 
 .pontuacao {
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 .pessoas strong {
@@ -293,17 +293,18 @@ ul {
     position: absolute;
     background: rgb(88, 29, 226);
     color: white;
-    margin-left: 50%;
+    margin-left: 47%;
     margin-top: -34%;
     width: 40vh;
-    height: 25vh;
+    height: 22vh;
     border-radius: 15px;
     box-shadow: 10px 12px 17px -5px rgb(82 81 81);
+    font-size: 13px;
 }
 
 .meio1 {
-    padding: 10px;
-    width: 70%;
+    padding: 5px;
+    width: 65%;
 }
 
 .hoje {
@@ -317,13 +318,29 @@ ul {
 
 .hoje {
     margin: 5px;
-    padding: 15px;
+    padding: 5px;
+    width: 226px;
 }
 
 .agora {
+    display: flex;
     margin: 5px;
+    width: 383px;
+    height: 99px;
+    padding: 0px;
+}
+
+.agora1 {
     background: rgb(117, 71, 224);
-    padding: 17px;
+    width: 59%;
+    padding: 5px;
+}
+
+.agora2 { 
+    background: rgb(117, 71, 224);
+    margin-left: 5px;
+    width: 115px;
+    padding: 5px;
 }
 
 .agora p {
@@ -331,57 +348,34 @@ ul {
 }
 
 @media (max-width: 798px) {
-    .total {
-        width: auto;
-        height: auto;
-        font-size: 8px;
-    }
-
-    .geral img {
+    .cabecalho {
+        font-size: 10px;
         width: 20px;
     }
 
-    .cabecalho {
-        width: auto;
+    li {
+        margin: auto;
+    }
+
+    ul {
+        margin-top: -260px;
     }
 
     .sobe {
-        padding: 0px 0px 250px;
+        margin-top: 130px;
+        padding: 0px 0px 207px;
     }
 
     .desce {
         margin-top: 250px;
     }
 
+    .geral {
+        font-size: 8px;
+    }
+
     .esquerda {
         width: auto;
-        height: auto;
-        margin-left: 10px;
-    }
-
-    .teste {
-        margin: 10px;
-        height: 180px;
-    }
-
-    .historico {
-        margin: 0 auto;
-        margin-left: 10px;
-        margin-top: 40px;
-    }
-
-    .ola {
-        width: auto;
-        height: auto;
-        margin-top: 90px;
-        margin-right: 10px;
-    }
-
-    .html h1 {
-        font-size: 12px;
-    }
-    .estatisticas h3 {
-        font-size: 10px;
     }
 
     .estat1 {
@@ -389,9 +383,17 @@ ul {
         padding: 0px;
     }
 
+    .estat1 h3 {
+        font-size: 10px;
+    }
+
     .estat2 {
         width: auto;
         padding: 0px;
+    }
+
+    .estat2 h3 {
+        font-size: 10px;
     }
 
     .estat3 {
@@ -399,17 +401,158 @@ ul {
         padding: 0px;
     }
 
-    .olatexto img {
-        width: 50px;
-        margin-left: -10px;
+    .estat3 h3 {
+        font-size: 10px;
+    }
+
+    .teste {
+        margin-left: 5px;
+        margin: 7px;
+        height: 140px;
+    }
+
+    .teste h1 {
+        font-size: 10px;
+    }
+
+    .historico {
+        margin: 20px;
+        margin-left: 10px;
+        margin-top: -155px;
+    }
+
+    .pontuacao {
+        margin-left: 5%;
+    }
+
+    .hist img {
+        width: 30px;
+    }
+
+    .ola {
+        width: 75%;
+        height: 55%;
+    }
+
+    .olatexto {
+        padding: 5px;
+    }
+
+    .ola img {
+        width: 55px;
+        height: 70px;
+        margin: 0 auto;
     }
 
     .meio {
-        margin: auto;
-        margin-left: 50px;
-        width: 80%;
-        margin-top: 10px;
-        height: auto;
+        font-size: 8px;
+        width: 63%;
+        height: 20%;
+        margin-left: 10%;
+        margin-top: -100%;
+    }
+
+    .hoje {
+        width: 135px;
+    }
+
+    .agora1 {
+        width: auto;
+        height: 40%;
+    }
+
+    .agora2 {
+        width: auto;
+        height: 40%;
+    }
+
+    .log {
+        margin: 7px;
+        width: 45%;
+        height: 50%;
+    }
+
+    .log img {
+        width: 40px;
+    }
+
+    .log h1 {
+        font-size: 15px;
+    }
+
+    .diario {
+        padding: 5px;
+        width: 95px;
+    }
+
+    .diario h1 {
+        font-size: 15px;
+    }
+
+    .tarefas {
+        padding: 5px;
+        width: 95px;
+    }
+
+    .tarefas h1 {
+        font-size: 15px;
+    }
+
+    .notas {
+        margin-top: -105px;
+    }
+
+    .anotacoes {
+        margin-left: -10px;
+    }
+
+    .anotacoes1 {
+        margin-left: 5%;
+    }
+
+    .titulo {
+        margin: 10px;
+    }
+
+    .grupos {
+        margin: 5px;
+        margin-left: 5px;
+        font-size: 8px;
+        width: 70%;
+    }
+
+    .grupo1 {
+        padding: 5px;
+        width: 30px;
+        margin-left: 3px;
+    }
+
+    .grupo2 {
+        padding: 5px;
+        width: 30px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .fim {
+        margin: 5px;
+        font-size: 5px;
+    }
+
+    .fim img {
+        width: 30px;
+    }
+
+    .pontuacao1 {
+        margin-left: 10%;
+    }
+
+    .direita {
+        width: 33%;
+    }
+
+    .esquerda {
+        width: 50%;
     }
 }
 
